@@ -16,7 +16,6 @@ const csvFile = fs.readFileSync('files/input.csv', 'utf8');
 }
 */
 
-
 // Parsear el archivo CSV
 Papa.parse(csvFile, {
     header: true,
